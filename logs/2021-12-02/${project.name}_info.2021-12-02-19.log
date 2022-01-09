@@ -1,0 +1,10 @@
+[${project.name}][${env:SERVER_PORT}] 2021-12-02 20:00:24,335 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-12-02 20:00:25,145 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-12-02 20:00:25,723 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for merchant-application obtained from Discovery client: [192.168.2.106:57010]
+[${project.name}][${env:SERVER_PORT}] 2021-12-02 20:00:25,723 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for merchant-application obtained from Discovery client: [192.168.2.106:57010]
+[${project.name}][${env:SERVER_PORT}] 2021-12-02 20:00:25,723 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2021-12-02 20:00:25,723 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application]:  addServer [192.168.2.106:57010]
+[${project.name}][${env:SERVER_PORT}] 2021-12-02 20:00:25,723 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.2.106:57010]}
+[${project.name}][${env:SERVER_PORT}] 2021-12-02 20:00:25,724 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [merchant-application_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2021-12-02 20:00:25,724 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [merchant-application_unknown]:  addServer [192.168.2.106:57010]
+[${project.name}][${env:SERVER_PORT}] 2021-12-02 20:00:26,362 DEBUG [NettyServerWorker-6-3][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.253.1:3194, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.253.1

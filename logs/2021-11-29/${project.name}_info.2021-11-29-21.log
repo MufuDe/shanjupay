@@ -1,0 +1,157 @@
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:20,023 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:5) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:27,026 DEBUG [NettyClientWorker-4-7][NettyClientHandler.java:121] -  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0x5f77141e, L:/192.168.253.1:6898 - R:/192.168.253.1:20891]], dubbo version: 2.7.3, current host: 192.168.253.1
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:27,027 DEBUG [NettyClientWorker-4-7][HeartbeatHandler.java:84] -  [DUBBO] Receive heartbeat response in thread NettyClientWorker-4-7, dubbo version: 2.7.3, current host: 192.168.253.1
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:34,200 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:5) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:41,213 DEBUG [NettyServerWorker-6-5][HeartbeatHandler.java:74] -  [DUBBO] Received heartbeat from remote channel /192.168.253.1:6312, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.253.1
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:41,492 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:5) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:47,393 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:5) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 INFO [lettuce-nioEventLoop-7-1][AbstractInternalLogger.java:219] - [[channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, chid=0x1], java.io.IOException: 远程主机强迫关闭了一个现有的连接。, java.io.IOException: 远程主机强迫关闭了一个现有的连接。] Unexpected exception during request: [[channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, chid=0x1], java.io.IOException: 远程主机强迫关闭了一个现有的连接。, java.io.IOException: 远程主机强迫关闭了一个现有的连接。]
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][CommandHandler.java:300] - [channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, chid=0x1] channelInactive()
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][DefaultEndpoint.java:408] - [channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, epid=0x1] deactivating endpoint handler
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][DefaultEndpoint.java:589] - [channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, epid=0x1] notifyQueuedCommands adding 0 command(s) to buffer
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][CommandHandler.java:326] - [channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, chid=0x1] channelInactive() done
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][ConnectionWatchdog.java:167] - [channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] channelInactive()
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][ConnectionWatchdog.java:197] - [channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][ConnectionWatchdog.java:214] - [[channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379], 1, 1] Reconnect attempt [[channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379], 1, 1], delay {}ms
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][ConnectionWatchdog.java:167] - [channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] channelInactive()
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][ConnectionWatchdog.java:197] - [channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] scheduleReconnect()
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][ConnectionWatchdog.java:236] - [channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, last known addr=localhost/127.0.0.1:6379] Skipping scheduleReconnect() because I have an active channel
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 DEBUG [lettuce-nioEventLoop-7-1][CommandHandler.java:170] - [channel=0xf12de0b3, /127.0.0.1:3309 -> localhost/127.0.0.1:6379, chid=0x1] channelUnregistered()
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,124 INFO [lettuce-nioEventLoop-7-1][AbstractInternalLogger.java:219] - [null, java.io.IOException: 远程主机强迫关闭了一个现有的连接。, java.io.IOException: 远程主机强迫关闭了一个现有的连接。] Unexpected exception during request: [null, java.io.IOException: 远程主机强迫关闭了一个现有的连接。, java.io.IOException: 远程主机强迫关闭了一个现有的连接。]
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,139 INFO [lettuce-nioEventLoop-7-1][AbstractInternalLogger.java:219] - [null, java.io.IOException: 远程主机强迫关闭了一个现有的连接。, java.io.IOException: 远程主机强迫关闭了一个现有的连接。] Unexpected exception during request: [null, java.io.IOException: 远程主机强迫关闭了一个现有的连接。, java.io.IOException: 远程主机强迫关闭了一个现有的连接。]
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,139 INFO [lettuce-nioEventLoop-7-2][AbstractInternalLogger.java:219] - [null, java.io.IOException: 远程主机强迫关闭了一个现有的连接。, java.io.IOException: 远程主机强迫关闭了一个现有的连接。] Unexpected exception during request: [null, java.io.IOException: 远程主机强迫关闭了一个现有的连接。, java.io.IOException: 远程主机强迫关闭了一个现有的连接。]
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,233 INFO [lettuce-eventExecutorLoop-1-3][AbstractInternalLogger.java:173] - Reconnecting, last destination was localhost/127.0.0.1:6379
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,233 DEBUG [lettuce-eventExecutorLoop-1-3][RedisClient.java:734] - Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,233 DEBUG [lettuce-eventExecutorLoop-1-3][ReconnectionHandler.java:108] - Reconnecting to Redis at localhost:6379
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,233 DEBUG [lettuce-nioEventLoop-7-2][CommandHandler.java:154] - [channel=0xdbc53528, [id: 0x01badc13] (inactive), chid=0x2] channelRegistered()
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,249 INFO [lettuce-eventExecutorLoop-1-3][AbstractInternalLogger.java:173] - Reconnecting, last destination was localhost/127.0.0.1:6379
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,249 INFO [lettuce-eventExecutorLoop-1-8][AbstractInternalLogger.java:173] - Reconnecting, last destination was /127.0.0.1:6379
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:50,249 INFO [lettuce-eventExecutorLoop-1-9][AbstractInternalLogger.java:173] - Reconnecting, last destination was /127.0.0.1:6379
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,172 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-15740536-b11b-4e42-9f85-31686f5fb8c6][ServerHttpAgent.java:149] - [NACOS ConnectException httpPost] currentServerAddr: http://127.0.0.1:8848, err : Connection refused: connect
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,171 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-15740536-b11b-4e42-9f85-31686f5fb8c6][ServerHttpAgent.java:149] - [NACOS ConnectException httpPost] currentServerAddr: http://127.0.0.1:8848, err : Connection refused: connect
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,172 WARN [com.alibaba.nacos.naming.beat.sender][HttpClient.java:95] - failed to request http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%22192.168.2.106%22%2C%22metadata%22%3A%7B%22dubbo.metadata-service.urls%22%3A%22%5B+%5C%22dubbo%3A%2F%2F192.168.253.1%3A20891%2Fcom.alibaba.cloud.dubbo.service.DubboMetadataService%3Fanyhost%3Dtrue%26application%3Dmerchant-application%26bind.ip%3D192.168.253.1%26bind.port%3D20891%26deprecated%3Dfalse%26dubbo%3D2.0.2%26dynamic%3Dtrue%26generic%3Dfalse%26group%3Dmerchant-application%26interface%3Dcom.alibaba.cloud.dubbo.service.DubboMetadataService%26methods%3DgetAllServiceKeys%2CgetServiceRestMetadata%2CgetExportedURLs%2CgetAllExportedURLs%26pid%3D53624%26qos.enable%3Dfalse%26qos.port%3D22310%26register%3Dtrue%26release%3D2.7.3%26revision%3D2.1.0.RELEASE%26side%3Dprovider%26timestamp%3D1638196601227%26version%3D1.0.0%5C%22+%5D%22%2C%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A57010%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40merchant-application%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40merchant-application&encoding=UTF-8&namespaceId=15740536-b11b-4e42-9f85-31686f5fb8c6 from 127.0.0.1
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,172 WARN [com.alibaba.nacos.naming.beat.sender][HttpClient.java:95] - failed to request http://127.0.0.1:8848/nacos/v1/ns/instance/beat?beat=%7B%22ip%22%3A%22192.168.253.1%22%2C%22metadata%22%3A%7B%22side%22%3A%22provider%22%2C%22methods%22%3A%22getAllServiceKeys%2CgetServiceRestMetadata%2CgetExportedURLs%2CgetAllExportedURLs%22%2C%22release%22%3A%222.7.3%22%2C%22deprecated%22%3A%22false%22%2C%22dubbo%22%3A%222.0.2%22%2C%22pid%22%3A%2253624%22%2C%22interface%22%3A%22com.alibaba.cloud.dubbo.service.DubboMetadataService%22%2C%22version%22%3A%221.0.0%22%2C%22generic%22%3A%22false%22%2C%22revision%22%3A%222.1.0.RELEASE%22%2C%22path%22%3A%22com.alibaba.cloud.dubbo.service.DubboMetadataService%22%2C%22protocol%22%3A%22dubbo%22%2C%22application%22%3A%22merchant-application%22%2C%22dynamic%22%3A%22true%22%2C%22category%22%3A%22providers%22%2C%22anyhost%22%3A%22true%22%2C%22group%22%3A%22merchant-application%22%2C%22register%22%3A%22true%22%2C%22timestamp%22%3A%221638196601227%22%7D%2C%22period%22%3A5000%2C%22port%22%3A20891%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40providers%3Acom.alibaba.cloud.dubbo.service.DubboMetadataService%3A1.0.0%3Amerchant-application%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40providers%3Acom.alibaba.cloud.dubbo.service.DubboMetadataService%3A1.0.0%3Amerchant-application&encoding=UTF-8&namespaceId=public from 127.0.0.1
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,172 ERROR [com.alibaba.nacos.naming.beat.sender][HttpClient.java:103] - [NA] failed to request 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:667)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at com.alibaba.nacos.client.naming.net.HttpClient.getResult(HttpClient.java:114)
+	at com.alibaba.nacos.client.naming.net.HttpClient.request(HttpClient.java:91)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:410)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:451)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,172 ERROR [com.alibaba.nacos.naming.beat.sender][HttpClient.java:103] - [NA] failed to request 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:667)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at com.alibaba.nacos.client.naming.net.HttpClient.getResult(HttpClient.java:114)
+	at com.alibaba.nacos.client.naming.net.HttpClient.request(HttpClient.java:91)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:410)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:451)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,176 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:454] - request 127.0.0.1:8848 failed.
+ErrCode:500, ErrMsg:failed to req API:127.0.0.1:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:424)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:451)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,176 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:454] - request 127.0.0.1:8848 failed.
+ErrCode:500, ErrMsg:failed to req API:127.0.0.1:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:424)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:451)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,177 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:316] - [CLIENT-BEAT] failed to send beat: {"ip":"192.168.253.1","metadata":{"side":"provider","methods":"getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs","release":"2.7.3","deprecated":"false","dubbo":"2.0.2","pid":"53624","interface":"com.alibaba.cloud.dubbo.service.DubboMetadataService","version":"1.0.0","generic":"false","revision":"2.1.0.RELEASE","path":"com.alibaba.cloud.dubbo.service.DubboMetadataService","protocol":"dubbo","application":"merchant-application","dynamic":"true","category":"providers","anyhost":"true","group":"merchant-application","register":"true","timestamp":"1638196601227"},"period":5000,"port":20891,"scheduled":false,"serviceName":"DEFAULT_GROUP@@providers:com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0:merchant-application","stopped":false,"weight":1.0}
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance/beat after all servers([127.0.0.1:8848]) tried: failed to req API:127.0.0.1:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:464)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,177 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:316] - [CLIENT-BEAT] failed to send beat: {"cluster":"DEFAULT","ip":"192.168.2.106","metadata":{"dubbo.metadata-service.urls":"[ \"dubbo://192.168.253.1:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-application&bind.ip=192.168.253.1&bind.port=20891&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-application&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=53624&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1638196601227&version=1.0.0\" ]","preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":57010,"scheduled":false,"serviceName":"DEFAULT_GROUP@@merchant-application","stopped":false,"weight":1.0}
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance/beat after all servers([127.0.0.1:8848]) tried: failed to req API:127.0.0.1:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:464)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,173 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-15740536-b11b-4e42-9f85-31686f5fb8c6][ServerHttpAgent.java:149] - [NACOS ConnectException httpPost] currentServerAddr: http://127.0.0.1:8848, err : Connection refused: connect
+[${project.name}][${env:SERVER_PORT}] 2021-11-29 23:00:51,181 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-15740536-b11b-4e42-9f85-31686f5fb8c6][ServerHttpAgent.java:149] - [NACOS ConnectException httpPost] currentServerAddr: http://127.0.0.1:8848, err : Connection refused: connect

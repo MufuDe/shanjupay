@@ -1,0 +1,14 @@
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\PaymentResponseDTO.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\PaymentBillDTO.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\WeChatBeanScan.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\conf\AliConfigParam.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\OrderDTO.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\AlipayBean.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\GoodsDetail.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\conf\WXConfigParam.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\TradeCreateResponse.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\CommonPayStatusDTO.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\PayChannelAgentService.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\WeChatBean.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\AlipayBCScanBean.java
+D:\JavaStudy\Level3\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\TradeStatus.java
